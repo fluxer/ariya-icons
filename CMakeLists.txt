@@ -4,16 +4,12 @@ cmake_minimum_required(VERSION 2.6)
 # include specific modules
 set (CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
-if (WIN32)
-   set(ICON_INSTALL_DIR         "share/icons"             ) # The icon install dir (default ${SHARE_INSTALL_PREFIX}/share/icons/)
-else (WIN32)
-   set(SHARE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}/share" )
-   set(ICON_INSTALL_DIR     "${SHARE_INSTALL_PREFIX}/icons" )
-endif(WIN32)
+set(SHARE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}/share" )
+set(ICON_INSTALL_DIR     "${SHARE_INSTALL_PREFIX}/icons" )
 
 ########### install files ###############
 
-set( icon_dirs  places devices apps emotes emblems animations actions status categories panel mimes )
+set( icon_dirs  16 24 32 48 64 128 symbolic )
 
 set(ARIYA_INSTALL_DIR ${ICON_INSTALL_DIR}/ariya)
 install( DIRECTORY ${icon_dirs} DESTINATION ${ARIYA_INSTALL_DIR} PATTERN .git EXCLUDE PATTERN "*.sh" EXCLUDE )
