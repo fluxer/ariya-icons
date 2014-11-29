@@ -26,7 +26,7 @@ PanelSizes=16,22,32,48,64,128,256
 DialogDefault=32
 DialogSizes=16,22,32,48,64,128,256
 
-Directories=16x16/actions,16x16/apps,16x16/categories,16x16/devices,16x16/emblems,16x16/emotes,16x16/places,16x16/status,32x32/actions,32x32/apps,32x32/categories,32x32/devices,32x32/places,32x32/status,48x48/actions,48x48/apps,48x48/categories,48x48/devices,48x48/places,48x48/status,64x64/actions,64x64/apps,64x64/categories,64x64/devices,64x64/places,64x64/status,128x128/actions,128x128/apps,128x128/categories,128x128/devices,128x128/emotes,128x128/places,128x128/status
+Directories=64x64/places,64x64/devices,64x64/apps,64x64/emotes,64x64/emblems,64x64/animations,64x64/actions,64x64/status,64x64/categories,64x64/panel,64x64/mimes,48x48/places,48x48/devices,48x48/apps,48x48/emotes,48x48/emblems,48x48/animations,48x48/actions,48x48/status,48x48/categories,48x48/panel,48x48/mimes,24x24/places,24x24/devices,24x24/apps,24x24/emotes,24x24/emblems,24x24/animations,24x24/actions,24x24/status,24x24/categories,24x24/panel,24x24/mimes,32x32/places,32x32/devices,32x32/apps,32x32/emotes,32x32/emblems,32x32/animations,32x32/actions,32x32/status,32x32/categories,32x32/panel,32x32/mimes,16x16/places,16x16/devices,16x16/apps,16x16/emotes,16x16/emblems,16x16/animations,16x16/actions,16x16/status,16x16/categories,16x16/panel,16x16/mimes,128x128/places,128x128/devices,128x128/apps,128x128/emotes,128x128/emblems,128x128/animations,128x128/actions,128x128/status,128x128/categories,128x128/panel,128x128/mimes
 
 [8x8/emblems]
 Size=8
@@ -378,37 +378,3 @@ Size=128
 Context=Status
 Type=Threshold
 
-[256x256/actions]
-Size=256
-Context=Actions
-Type=Threshold
-
-[256x256/apps]
-Size=256
-Context=Applications
-Type=Threshold
-
-[256x256/categories]
-Size=256
-Context=Categories
-Type=Threshold
-
-[256x256/devices]
-Size=256
-Context=Devices
-Type=Threshold
-
-[256x256/mimetypes]
-Size=256
-Context=MimeTypes
-Type=Threshold
-
-[256x256/places]
-Size=256
-Context=Places
-Type=Threshold
-
-[256x256/status]
-Size=256
-Context=Status
-Type=Threshold
