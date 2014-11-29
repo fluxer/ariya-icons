@@ -9,7 +9,7 @@ set(ICON_INSTALL_DIR     "${SHARE_INSTALL_PREFIX}/icons" )
 
 ########### install files ###############
 
-set( icon_dirs  16x16 24x24 32x32 48x48 64x64 128x128 )
+set( icon_dirs  16x16 22x22 32x32 48x48 64x64 128x128 )
 
 set(ARIYA_INSTALL_DIR ${ICON_INSTALL_DIR}/ariya)
 install( DIRECTORY ${icon_dirs} DESTINATION ${ARIYA_INSTALL_DIR} PATTERN .git EXCLUDE PATTERN "*.sh" EXCLUDE )

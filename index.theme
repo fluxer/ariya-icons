@@ -14,7 +14,7 @@ ShareOverlay=share
 ZipOverlay=zip
 
 DesktopDefault=48
-DesktopSizes=16,22,32,48,64,128,256
+DesktopSizes=16,22,32,48,64,128
 ToolbarDefault=22
 ToolbarSizes=16,22,32,48
 MainToolbarDefault=22
@@ -22,25 +22,25 @@ MainToolbarSizes=16,22,32,48
 SmallDefault=16
 SmallSizes=16,22,32,48
 PanelDefault=32
-PanelSizes=16,22,32,48,64,128,256
+PanelSizes=16,22,32,48,64,128
 DialogDefault=32
-DialogSizes=16,22,32,48,64,128,256
+DialogSizes=16,22,32,48,64,128
 
-Directories=64x64/places,64x64/devices,64x64/apps,64x64/emotes,64x64/emblems,64x64/animations,64x64/actions,64x64/status,64x64/categories,64x64/panel,64x64/mimes,48x48/places,48x48/devices,48x48/apps,48x48/emotes,48x48/emblems,48x48/animations,48x48/actions,48x48/status,48x48/categories,48x48/panel,48x48/mimes,24x24/places,24x24/devices,24x24/apps,24x24/emotes,24x24/emblems,24x24/animations,24x24/actions,24x24/status,24x24/categories,24x24/panel,24x24/mimes,32x32/places,32x32/devices,32x32/apps,32x32/emotes,32x32/emblems,32x32/animations,32x32/actions,32x32/status,32x32/categories,32x32/panel,32x32/mimes,16x16/places,16x16/devices,16x16/apps,16x16/emotes,16x16/emblems,16x16/animations,16x16/actions,16x16/status,16x16/categories,16x16/panel,16x16/mimes,128x128/places,128x128/devices,128x128/apps,128x128/emotes,128x128/emblems,128x128/animations,128x128/actions,128x128/status,128x128/categories,128x128/panel,128x128/mimes
+Directories=128x128/actions,128x128/apps,128x128/categories,128x128/devices,128x128/emblems,128x128/emotes,128x128/mimetypes,128x128/places,128x128/scalable,128x128/small,128x128/special,128x128/status,16x16/actions,16x16/apps,16x16/categories,16x16/devices,16x16/emblems,16x16/emotes,16x16/mimetypes,16x16/places,16x16/scalable,16x16/small,16x16/special,16x16/status,22x22/actions,22x22/apps,22x22/categories,22x22/devices,22x22/emblems,22x22/emotes,22x22/mimetypes,22x22/places,22x22/scalable,22x22/small,22x22/special,22x22/status,32x32/actions,32x32/apps,32x32/categories,32x32/devices,32x32/emblems,32x32/emotes,32x32/mimetypes,32x32/places,32x32/scalable,32x32/small,32x32/special,32x32/status,48x48/actions,48x48/apps,48x48/categories,48x48/devices,48x48/emblems,48x48/emotes,48x48/mimetypes,48x48/places,48x48/scalable,48x48/small,48x48/special,48x48/status,64x64/actions,64x64/apps,64x64/categories,64x64/devices,64x64/emblems,64x64/emotes,64x64/mimetypes,64x64/places,64x64/scalable,64x64/small,64x64/special,64x64/status
 
-[8x8/emblems]
-Size=8
-Context=Emblems
-Type=Threshold
+# [128x128/animations]
+# Size=128
+# Context=Animations
+# Type=Threshold
+# 
+# [128x128/intl]
+# Size=128
+# Context=International
+# Type=Threshold
 
 [16x16/actions]
 Size=16
 Context=Actions
-Type=Threshold
-
-[16x16/animations]
-Size=16
-Context=Animations
 Type=Threshold
 
 [16x16/apps]
@@ -68,11 +68,6 @@ Size=16
 Context=Emotes
 Type=Threshold
 
-[16x16/intl]
-Size=16
-Context=International
-Type=Threshold
-
 [16x16/mimetypes]
 Size=16
 Context=MimeTypes
@@ -83,24 +78,19 @@ Size=16
 Context=Places
 Type=Threshold
 
-[16x16/status]
-Size=16
-Context=Status
-Type=Threshold
-
 [16x16/special]
 Size=16
 Context=Actions
 Type=Threshold
 
+[16x16/status]
+Size=16
+Context=Status
+Type=Threshold
+
 [22x22/actions]
 Size=22
 Context=Actions
-Type=Threshold
-
-[22x22/animations]
-Size=22
-Context=Animations
 Type=Threshold
 
 [22x22/apps]
@@ -128,11 +118,6 @@ Size=22
 Context=Emotes
 Type=Threshold
 
-[22x22/intl]
-Size=22
-Context=International
-Type=Threshold
-
 [22x22/mimetypes]
 Size=22
 Context=MimeTypes
@@ -143,24 +128,19 @@ Size=22
 Context=Places
 Type=Threshold
 
-[22x22/status]
-Size=22
-Context=Status
-Type=Threshold
-
 [22x22/special]
 Size=22
 Context=Actions
 Type=Threshold
 
+[22x22/status]
+Size=22
+Context=Status
+Type=Threshold
+
 [32x32/actions]
 Size=32
 Context=Actions
-Type=Threshold
-
-[32x32/animations]
-Size=32
-Context=Animations
 Type=Threshold
 
 [32x32/apps]
@@ -188,11 +168,6 @@ Size=32
 Context=Emotes
 Type=Threshold
 
-[32x32/intl]
-Size=32
-Context=International
-Type=Threshold
-
 [32x32/mimetypes]
 Size=32
 Context=MimeTypes
@@ -203,6 +178,11 @@ Size=32
 Context=Places
 Type=Threshold
 
+[32x32/special]
+Size=32
+Context=Actions
+Type=Threshold
+
 [32x32/status]
 Size=32
 Context=Status
@@ -211,11 +191,6 @@ Type=Threshold
 [48x48/actions]
 Size=48
 Context=Actions
-Type=Threshold
-
-[48x48/animations]
-Size=48
-Context=Animations
 Type=Threshold
 
 [48x48/apps]
@@ -243,11 +218,6 @@ Size=48
 Context=Emotes
 Type=Threshold
 
-[48x48/intl]
-Size=48
-Context=International
-Type=Threshold
-
 [48x48/mimetypes]
 Size=48
 Context=MimeTypes
@@ -258,6 +228,11 @@ Size=48
 Context=Places
 Type=Threshold
 
+[48x48/special]
+Size=48
+Context=Actions
+Type=Threshold
+
 [48x48/status]
 Size=48
 Context=Status
@@ -266,11 +241,6 @@ Type=Threshold
 [64x64/actions]
 Size=64
 Context=Actions
-Type=Threshold
-
-[64x64/animations]
-Size=64
-Context=Animations
 Type=Threshold
 
 [64x64/apps]
@@ -298,11 +268,6 @@ Size=64
 Context=Emotes
 Type=Threshold
 
-[64x64/intl]
-Size=64
-Context=International
-Type=Threshold
-
 [64x64/mimetypes]
 Size=64
 Context=MimeTypes
@@ -313,6 +278,11 @@ Size=64
 Context=Places
 Type=Threshold
 
+[64x64/special]
+Size=64
+Context=Actions
+Type=Threshold
+
 [64x64/status]
 Size=64
 Context=Status
@@ -321,11 +291,6 @@ Type=Threshold
 [128x128/actions]
 Size=128
 Context=Actions
-Type=Threshold
-
-[128x128/animations]
-Size=128
-Context=Animations
 Type=Threshold
 
 [128x128/apps]
@@ -353,16 +318,6 @@ Size=128
 Context=Emotes
 Type=Threshold
 
-[128x128/categories]
-Size=128
-Context=Categories
-Type=Threshold
-
-[128x128/intl]
-Size=128
-Context=International
-Type=Threshold
-
 [128x128/mimetypes]
 Size=128
 Context=MimeTypes
@@ -371,6 +326,11 @@ Type=Threshold
 [128x128/places]
 Size=128
 Context=Places
+Type=Threshold
+
+[128x128/special]
+Size=128
+Context=Actions
 Type=Threshold
 
 [128x128/status]
