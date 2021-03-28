@@ -1,6 +1,6 @@
 project(ariya-icons NONE)
 
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 2.8.12)
 
 set(ARIYA_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}/share/icons/ariya")
 
